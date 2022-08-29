@@ -22,3 +22,19 @@ printf("\nDivision=%d",divi);
 printf("\nModuloDivision=%d",mod); 
 
 }
+
+
+// ternary operator 
+// Modulo division operator - check no.is odd or even
+#include <stdio.h>
+
+void main() 
+{
+int i;
+printf("Enter a number:"); 
+scanf("%d",&i); 
+ float a;
+ a=i%2;
+ printf("Remainder is %f\n ",a) ;
+  i%2==0?printf("%d is even",i):printf("%d is odd",i) ;
+}
