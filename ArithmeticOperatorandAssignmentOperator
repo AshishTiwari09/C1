@@ -1,0 +1,24 @@
+// Online C compiler to run C program online
+// Arithmetic Operator and Assignment Operator      
+#include <stdio.h>
+
+void main() 
+{
+ int a,b,add,sub,mul,divi,mod;
+
+printf("Enter value for a:"); 
+scanf("%d",&a); 
+printf("Enter value for b:"); 
+scanf("%d",&b); 
+add=a+b; 
+sub=a-b; 
+mul=a*b; 
+divi=a/b; 
+mod=a%b;
+printf("\nAddition=%d",add); 
+printf("\nSubstraction=%d",sub); 
+printf("\nMultiplication=%d",mul); 
+printf("\nDivision=%d",divi);
+printf("\nModuloDivision=%d",mod); 
+
+}
